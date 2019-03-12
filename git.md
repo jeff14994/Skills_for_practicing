@@ -1,7 +1,7 @@
 # Git Practice
 ## 如何跳到其他branch?
 - git checkout [branch_name]
-
+1. **dksjfkljdskjf**
 ## 如何刪除stage 裡面的資料？
 1. 若該檔案不在repository內 : git rm --cached 檔案名稱
 2. 若檔案已經在repository內 : git reset HEAD 檔案名稱
@@ -21,4 +21,3 @@
 1. git checkout origin/new_branch -b new_branch # 建立 local new_branch 並與遠端連接
 2. 修改東西
 3. git push origin new_branch
-
