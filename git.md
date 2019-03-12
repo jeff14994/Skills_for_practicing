@@ -25,3 +25,5 @@
 1. git checkout origin/new_branch -b new_branch # 建立 local new_branch 並與遠端連接
 2. 修改東西
 3. git push origin new_branch
+或
+- 直接在local端建立一個新branch，再上傳文件（目的，不要跟公司的remote端的branch重複，因為舊有的branch可能被merge）
