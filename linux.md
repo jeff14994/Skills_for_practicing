@@ -3,9 +3,14 @@
 ***
 # 1. Linux基本輸入輸出
 ## Cat
-- cat > myfile.txt               #用鍵盤輸入的資料匯處存入myfile.txt
-- cat > myfile.txt < test.txt    #從test.txt匯入資料
-- cat > myfile.txt << elf        #若輸入的關鍵字是eof時停止輸入資料
+> cat > myfile.txt
+>>用鍵盤輸入的資料匯處存入myfile.txt
+
+> cat > myfile.txt < test.txt
+>>從test.txt匯入資料
+
+> cat > myfile.txt << elf
+>>若輸入的關鍵字是eof時停止輸入資料
 
 ## Grep
 
@@ -19,7 +24,7 @@
 4. ctrl + e —>到最後MM面M
 
 # 2. Bash Script
-## shebang
+> shebang
 1. #! /bin/bash
 2. #! /bin/less —> 可以直接使用該程式執行此script
 
