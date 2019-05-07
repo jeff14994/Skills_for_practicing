@@ -4,6 +4,7 @@
 - tmux 
 - Linux
 - vim 
+- jupyter notebook
 - others
 
 ## Shortcuts in Different OS
