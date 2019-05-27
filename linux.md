@@ -9,7 +9,7 @@
 > cat > myfile.txt < test.txt
 >>從test.txt匯入資料
 
-> cat > myfile.txt << elf
+> cat > myfile.txt << eof
 >>若輸入的關鍵字是eof時停止輸入資料
 
 ## Grep
